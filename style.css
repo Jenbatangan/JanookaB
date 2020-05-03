@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Master styles */
+head {
+    <link rel="stylesheet" href="https://greengrocers.space">
+}
+body {
+    margin: 0px;
+    font-family: 'Catamaran','Roboto', sans-serif;
+}
+
+.box {
+    background-image:url(img/farm!.jpg);
+    padding: 30px 60px;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box2 {
+    background-image:url(img/farm3.webp);
+    padding: 30px 60px;
+    height: 80px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+.box3 {
+    background-image:url(img/egg.webp);
+    padding: 30px 60px;
+    height: 80px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box4 {
+    background-image:url(img/meat.webp);
+    padding: 30px 60px;
+    height: 80px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box5 {
+    background-image:url(img/fnv.webp);
+    padding: 30px 60px;
+    height: 80px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 45px;
+    color:#acd58a;
+}
+
+h2 {
+    font-size: 30px;
+    color: green;
+}
+footer p{
+    margin: 0;
+    color: #acd58a;
+    background-color: green;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper> .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: green;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid lightgreen;
+}
+
+.nav-link-wrapper a:hover {
+    color: rgb(155, 219, 37);
+}
+
+.right-side {
+    color:green;
+}
